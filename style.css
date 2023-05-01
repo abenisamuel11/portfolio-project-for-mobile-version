@@ -104,123 +104,123 @@ li {
   order: 0;
   flex-grow: 0;
 }
+
 .work1-image {
   width: 295px;
-height: 220px;
+  height: 220px;
+  background: url(blog_drbl_4x.png);
+  border-radius: 8px;
 
-background: url(blog_drbl_4x.png);
-border-radius: 8px;
+  /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
+
 .work1-title {
-width: 295px;
-height: 36px;
-
-font-family: 'Poppins', Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-/* or 138% */
-
-
-/* Neutrals/N800 */
-
-color: #172B4D;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin-left: 16px;
-margin-right:16px ;
-margin-top: 12px;
-}
-p1 {
-  width: 55px;
-height: 16px;
-
-/* Caption / 1 - Bolder */
-
-font-family: 'Poppins', Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-/* identical to box height, or 123% */
-
-
-/* Neutrals/N600 */
-
-color: #344563;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-padding-left: 16px;
-}
-p2 {
-  width: 88px;
-height: 16px;
-
-/* Caption / 1 - Bolder */
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-/* identical to box height, or 123% */
-
-
-/* Neutrals/N100 */
-
-color: #7A869A;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-#desc {
-  display:inline-block;
-}
-.teritiary-text{
   width: 295px;
-height: 76px;
+  height: 36px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
 
-/* Body / 3 */
+  /* or 138% */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-/* or 160% */
+  /* Neutrals/N800 */
 
+  color: #172b4d;
 
-/* Neutrals/N600 */
+  /* Inside auto layout */
 
-color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 12px;
+}
 
+#p1 {
+  width: 55px;
+  height: 16px;
 
-/* Inside auto layout */
+  /* Caption / 1 - Bolder */
 
-flex: none;
-order: 1;
-flex-grow: 0;
-padding-left:16px ;
-padding-right: 16px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* identical to box height, or 123% */
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-left: 16px;
+}
+
+#p2 {
+  width: 88px;
+  height: 16px;
+
+  /* Caption / 1 - Bolder */
+
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+
+  /* identical to box height, or 123% */
+
+  /* Neutrals/N100 */
+
+  color: #7a869a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#desc {
+  display: inline-block;
+}
+
+.teritiary-text {
+  width: 295px;
+  height: 76px;
+
+  /* Body / 3 */
+
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* or 160% */
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
