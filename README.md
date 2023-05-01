@@ -22,9 +22,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 
-# 📖 [Hello Microverse project] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-> A project that displays "Hello Microverse"
+> A personal portfolio website to showcase works I have done using HTML5, CSS3 and Javascript. The template is provided by the Microverse Inc.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -41,7 +41,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Display "Hello Microverse with red color"]**
+- **[Display one page that contains toolbar and headline section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,7 +64,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/abenisamuel11/hello-microverse.git
+  git clone https://github.com/abenisamuel11/portfolio-project-for-mobile-version.git
 ```
 -
 
@@ -83,14 +83,20 @@ Install this project with:
 👤 **Author1**
 
 - GitHub: [@abenisamuel11](https://github.com/abenisamuel11)
-- LinkedIn: [Abeni](https://www.linkedin.com/in/abenezer-samuel-08b82326a/)
+- LinkedIn: [Abeni](https://www.linkedin.com/in/abenezer-samuel/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Improve the project]**
+ - Contact form (pair programming)
+ - Desktop version
+ - Application deploy
+ - Evaluate accessibility (pair programming)
+ - Mobile menu (pair programming)
+ - Details modal (pair programming)
+ - Validate contact form (pair programming)
+ - Preserve data in the browser (pair programming)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
