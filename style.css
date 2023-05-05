@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
 li {
   list-style: none;
 }
@@ -12,6 +17,7 @@ li {
   padding-right: 24px;
   margin-top: 10px;
   margin-bottom: 100px;
+  flex-direction: row;
 }
 
 .logo {
@@ -22,16 +28,10 @@ li {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-
-  /* identical to box height, or 111% */
   display: flex;
   align-items: center;
   text-align: center;
-
-  /* Primary/B400 */
   color: #6070ff;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -41,10 +41,13 @@ li {
   background-image: url("./image/headlinebackground.png");
   height: 60vh;
   padding-left: 24px;
+  padding-bottom: 100px;
+  border-bottom-left-radius: 70px;
+  background-color: #fff;
 }
 
 .Primay-text {
-  width: 327px;
+  flex-direction: row;
   margin-bottom: 12px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -60,7 +63,8 @@ li {
 }
 
 .secondary-text {
-  width: 327px;
+  display: flex;
+  flex-direction: row;
   height: 146px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   margin-top: 0;
@@ -70,7 +74,7 @@ li {
   line-height: 24px;
   color: #344563;
   flex: none;
-  order: 1;
+  order: 0;
   flex-grow: 0;
 }
 
@@ -79,62 +83,44 @@ li {
   gap: 1rem;
   padding-left: 0;
   align-items: baseline;
+  flex-direction: row;
 }
 
 .connect {
   height: 24px;
-
-  /* Body / 2 - Bolder */
-
+  display: flex;
+  flex-direction: row;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-
-  /* identical to box height, or 150% */
-
-  /* Primary/B300 */
-
   color: #7f8cff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .work1-image {
-  width: 295px;
+  display: flex;
+  flex-direction: row;
   height: 220px;
   background: url(blog_drbl_4x.png);
   border-radius: 8px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .work1-title {
-  width: 295px;
-  height: 36px;
+  display: flex;
+  flex-direction: row;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-
-  /* or 138% */
-
-  /* Neutrals/N800 */
-
   color: #172b4d;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -144,25 +130,15 @@ li {
 }
 
 #p1 {
-  width: 55px;
+  display: flex;
+  flex-direction: row;
   height: 16px;
-
-  /* Caption / 1 - Bolder */
-
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-
-  /* identical to box height, or 123% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -170,49 +146,42 @@ li {
 }
 
 #p2 {
-  width: 88px;
+  display: flex;
+  flex-direction: row;
   height: 16px;
-
-  /* Caption / 1 - Bolder */
-
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-
-  /* identical to box height, or 123% */
-
-  /* Neutrals/N100 */
-
   color: #7a869a;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-#desc {
-  display: inline-block;
-}
-
-/* Project section */
 .project-container {
   padding: 16px;
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  background: #e5e5e5;
 }
-
-/* Project 1 */
 
 .work {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-top: 80px;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.work img {
+  border-radius: 8px;
+  width: 100%;
+  align-self: center;
 }
 
 .work-title {
@@ -223,36 +192,20 @@ li {
   line-height: 44px;
   margin-bottom: 5px;
   margin-top: 10px;
-
-  /* or 138% */
-
-  /* Neutrals/N800 */
-
-  color: #070707;
 }
 
 .profession {
   display: flex;
+  flex-direction: row;
   align-items: baseline;
   justify-content: space-around;
   gap: 1.5rem;
-
-  /* Caption / 1 - Bolder */
-
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-
-  /* identical to box height, or 123% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -280,9 +233,6 @@ li {
   display: flex;
   padding-left: 0;
   gap: 1rem;
-
-  /* Button / Small */
-
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -305,10 +255,6 @@ li {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-
-  /* or 160% */
-
-  /* Neutrals/N600 */
   color: #344563;
 }
 
@@ -320,13 +266,7 @@ li {
   font-size: 17px;
   line-height: 24px;
   margin-top: 20px;
-
-  /* identical to box height, or 141% */
-
   letter-spacing: 0.03em;
-
-  /* Primary/B500 */
-
   color: #396df2;
   border: 2px solid #dfe1e6;
   border-radius: 16px;
@@ -334,36 +274,23 @@ li {
 }
 
 #pro {
-  width: 102px;
+  flex-direction: row;
   height: 24px;
-
-  /* Button /Normal */
-
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-
-  /* identical to box height, or 141% */
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-
-  /* Primary/B500 */
-
   color: #396df2;
 }
 
 .work2 {
-  width: 295px;
   height: 220px;
   background: url(image_processing20200714-9747-16mjqpg.png);
   border-radius: 8px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -375,15 +302,7 @@ li {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  /* or 150% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -395,9 +314,6 @@ li {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-
-  /* identical to box height, or 141% */
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -406,11 +322,6 @@ li {
   border: 1px solid #dfe1e6;
   border-radius: 6px;
   padding: 8px;
-
-  /* Primary/B500 */
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -421,22 +332,14 @@ li {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-
-  /* or 133% */
-
   display: flex;
   align-items: center;
-
-  /* Neutrals/N700 */
-
   color: #253858;
 }
 
 .java-icon {
   background: #f7f7f9;
   border-radius: 8px;
-
-  /* Inside auto layout */
   padding-left: 12px;
   padding-top: 10px;
   padding-right: 35;
@@ -449,8 +352,6 @@ li {
 .html-icon {
   background: #f7f7f9;
   border-radius: 8px;
-
-  /* Inside auto layout */
   padding-left: 12px;
   padding-top: 10px;
   padding-right: 35;
@@ -466,22 +367,14 @@ li {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-
-  /* or 133% */
-
   display: flex;
   align-items: center;
-
-  /* Neutrals/N700 */
-
   color: #253858;
 }
 
 .css-icon {
   background: #f7f7f9;
   border-radius: 8px;
-
-  /* Inside auto layout */
   padding-left: 12px;
   padding-top: 10px;
   padding-right: 35;
@@ -497,22 +390,22 @@ li {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-
-  /* or 133% */
-
   display: flex;
   align-items: center;
-
-  /* Neutrals/N700 */
-
   color: #253858;
 }
 
 .lan-tools {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
   justify-content: space-around;
   gap: 1.5rem;
+}
+
+.about-my-self p {
+  font-size: 16px;
+  color: #344563;
+  margin: 0;
 }
 
 #frame p {
@@ -521,17 +414,130 @@ li {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-
-  /* identical to box height, or 120% */
-
   display: flex;
   align-items: center;
-
-  /* Theme 1 /  Neutrals 3 */
-
   color: #344563;
 }
 
 .last-part {
   background-color: #396df2;
+}
+
+.lan-desc {
+  flex-direction: column;
+  height: 24px;
+  left: 24px;
+  right: 78px;
+  top: calc(50% - 24px / 2);
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+}
+
+.btn:enabled {
+  color: #6070ff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.btn:disabled {
+  background-color: white;
+  color: #5e6c84;
+  border: 1px solid black;
+}
+
+.btn:visited {
+  background: #2230d2;
+  color: #fff;
+}
+
+.about-my-self {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+  border-top-right-radius: 70px;
+  background-color: #fff;
+}
+
+.about-my-self .top {
+  margin-top: 114px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about-my-self h1 {
+  font-size: 40px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.social-media .connect {
+  color: #7f8cff;
+}
+
+.btn.Get-my-resume {
+  background-color: #fff;
+  align-self: flex-start;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  margin-bottom: 12px;
+}
+
+.skill-list .language {
+  display: flex;
+  flex-direction: column;
+}
+
+.language .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.skills .skill {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding: 9px 12px;
+}
+
+.language .heading-skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 188px;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.bg {
+  background-color: #e5e5e5;
 }
