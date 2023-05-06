@@ -457,7 +457,7 @@ li {
 }
 
 .btn:visited {
-  background: #2230d2;
+  background: blue;
   color: #fff;
 }
 
@@ -490,6 +490,14 @@ li {
 .btn.Get-my-resume {
   background-color: #fff;
   align-self: flex-start;
+}
+
+.btn.Get-my-resume:hover {
+  background-color: blue;
+}
+
+.btn.Get-my-resume:visited {
+  background-color: darkblue;
 }
 
 .skill-list {
